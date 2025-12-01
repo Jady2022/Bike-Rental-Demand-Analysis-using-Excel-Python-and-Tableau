@@ -24,11 +24,11 @@ Model achieved **Adjusted R² ≈ 0.998**, indicating high explanatory power.
 
 ##### **Prophet Model**
 - Captures seasonality and weekly patterns.
-- **MAE ≈ 1613**, **RMSE ≈ 1905**, **R² ≈ -0.46** (holiday anomalies reduce accuracy)
+- **MAE ≈ 1613**, **RMSE ≈ 1905**, **R² ≈ 0.46** (holiday anomalies reduce accuracy)
 
 ##### **Holt-Winters Model**
 - Uses additive trend/seasonality.
-- **MAE ≈ 2362**, **RMSE ≈ 7108**, **R² ≈ -1.99**
+- **MAE ≈ 2362**, **RMSE ≈ 7108**, **R² ≈ 0.99**
 
 ➡ Prophet performed better but still struggled due to irregular short-term fluctuations.
 
